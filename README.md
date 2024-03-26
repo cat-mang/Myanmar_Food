@@ -44,3 +44,37 @@ What types of questions does this dataset seem to support?
 Be especially on the lookout for avenues of inquiry that produce a tangible value (the ability to make better targeted or informed decisions, or some other potential benefit to stakeholders).
 
 This data set would support policymakers' and NGOs' analysis on where to invest more resources in Myanmar during periods of instability. This data can also predict which commodities are most in demand and where.
+
+# Question
+Where in Myanmar are markets most vulnerable to food price surges during periods of instability? 
+
+
+# Minimum Viable Product
+3 x graphs which depict:
+1. Food prices surge during periods of instability in Myanmar
+2. Top 3 commodities most impacted by instability (price change delta)
+3. Top 3 markets most impacted by instability (price change delta)
+
+# MVP +
+1. Graph all commodity prices on one graph
+2. Graph location on map of market locations
+
+# Methodology 
+
+After data cleaning, I noticed that the data was only collected on the 15th of every month. 
+
+# Find key dates when commodity prices are highest
+Clean the data to easily read date (month/year) format
+You will need multiple graphs to depict average prices of different commodities:
+1. Fuel (diesel)
+2. Oil (palm)
+3. Meat (pork)
+4. Rice (high quality)
+5. Rice (low quality)
+6. Onions
+Group by the date to find average food prices during the month/year
+
+# Find which commodities are most vulnerable to price surges
+Group by commodity to find average food prices ranging from high priced times to stable times
+
+# Determine which markets are most impacted by rising food prices

@@ -78,3 +78,29 @@ Group by the date to find average food prices during the month/year
 Group by commodity to find average food prices ranging from high priced times to stable times
 
 # Determine which markets are most impacted by rising food prices
+
+
+# Data Frames Created
+food_df: OG data frame
+fuel_df: Only commodity column is diesel fuel
+oil_df: Only commodity column is palm oil
+meat_df: Only commodity column is pork meat
+onions_df: Only commodity column is onions
+riceLQ_df: Only commodity column is low quality rice
+
+Commodity over time
+fuel_over_time: fuel_df grouped by date
+oil_over_time: oil_df grouped by date
+meat_over_time: meat_df grouped by date
+onions_over_time: onions_df grouped by date
+rice_over_time: riceLQ_df grouped by date
+
+Commodity 2008 - 2012
+rice_volatile
+fuel_volatile
+oil_volatile
+meat_volatile
+onions_volatile 
+
+
+Commodity 2020 - 2023

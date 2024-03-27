@@ -76,12 +76,18 @@ Group by the date to find average food prices during the month/year
 
 # Find which commodities are most vulnerable to price surges
 Group by commodity to find average food prices ranging from high priced times to stable times
+Possibly a histogram?
+Time Correlation?
+
+Diesel Fuel
 
 # Determine which markets are most impacted by rising food prices
+Heat map? for correlation?
 
 
 # Data Frames Created
 food_df: OG data frame
+
 fuel_df: Only commodity column is diesel fuel
 oil_df: Only commodity column is palm oil
 meat_df: Only commodity column is pork meat
@@ -104,3 +110,17 @@ onions_volatile
 
 
 Commodity 2020 - 2023
+rice_coup_df
+oil_coup_df
+onions_coup_df
+meat_coup_df
+
+Market Analysis
+markets_df = OG dataframe for markets
+top_marks = only markets with 100 or more data points
+
+top_rice_markets
+high_oil
+high_fuel
+high_rice
+

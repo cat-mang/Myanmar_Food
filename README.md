@@ -1,22 +1,23 @@
 # Myanmar Markets
 
-# Myanmar_Food
+## Project Proposal
+When I worked in Thailand in 2021, much of our focus was on Thailand's western border with Myanmar (Burma). A coup occurred in Myanmar in February 2021 and the military junta was conducting kinetic operations against Myanmar's ethnic armed groups (EAG). A humanitarian crisis followed. 
+Historically, many ethnic groups in Myanmar have been subjected to oppression. Myanmar has been a very politically unstable country for years. Though currently there are no Special Operations Forces deployed to Myanmar, I wanted to use Myanmar as case study to determine where SOF might employ tactical Civil Affairs Teams in a semi/non-permissive operational environment to maximize results. 
+Therefore, by analyzing historical commodity prices in Myanmar, I aimed to find the top volatile markets in Myanmar as a way to identify subregions that had highly vulnerable populations. A Civil Affairs Team could then narrowly focus operations in the vacinity of that area.
+
+
+## Data Set Info and Description
+The data set was provided by the World Food Programme (WFP).
+
+The data set had 34,196 rows and 14 columns. 
 
 Link to data set:
 https://www.kaggle.com/datasets/usmanlovescode/myanmar-food-prices-dataset
 
-# Dataset Info
-What is the shape of your dataset (rows, columns)?
-
-You are probably looking for a dataset with between 1000 and 500000 rows.
-
-34,196 rows // 14 columns
-
-# Dataset Description
-How many categorical fields? What do they represent?
+The data set had 12 categorical fields:
 1. date
-2. admin1 (ethnic group)
-3. admin2 (ethnic group)
+2. admin1 (State/Region)
+3. admin2 (Sub Region)
 4. market (name of market)
 5. latitude (of market)
 6. longitude (of market)
@@ -27,16 +28,12 @@ How many categorical fields? What do they represent?
 11. pricetype
 12. currency (MMK - Myanmar Kyat)
 
-How many quantitative? What do they represent?
+The date set had 2 quantitative fields:
 1. price (in MMK)
 2. usdprice (price in USD)
 
-Is there missing data or data that seems to be wrong somehow (e.g. age = -99)?
-
-Some of the units of measurement for the food commodities are in "Days" which does not logically compare against other values such as Kilograms or Liters.
-
-Has the data already been summarized, or are the observations raw and unprocessed?
-The food prices from MMK to USD has already been converted.
+Data Cleaning
+The data was relatively straightforward and error free. Data cleaning involved changing the Dtype of several columns since all columns were "objects at first". Luckily, the commodity price conversions from MMK to USD was provided.
 
 # Potential Avenues of Inquiry
 Initial data exploration often sparks additional questions or potential insights that could be supported by continued exploration.
